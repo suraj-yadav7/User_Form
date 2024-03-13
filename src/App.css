@@ -1,0 +1,142 @@
+/*  styling form container */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  /* style form labels */
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* styleing the form all inputs form1 and form2*/
+  form input[type="text" ],[type="number"],[type="email"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+  }
+  
+  form input[type="text"]:focus {
+    border-color: #007bff;
+  }
+  
+  /* style date picker */
+  form .react-datepicker-wrapper {
+    width: 100%;
+  }
+  
+  /*  button styling */
+  form button[type="button"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button[type="button"]:hover {
+    background-color: #0056b3;
+  }
+
+
+
+.form1,.form2{
+    border: 1px solid black;
+    padding: 1rem;
+    margin-top:2rem ;
+
+}
+
+  .fTwoBtn{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  h4{
+    text-align: center;
+  }
+  
+/* $$$$ Preview component styling $$$$*/
+.previewContainer {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  /* Styleing listt */
+  ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  /* Style list items */
+  li {
+    margin: 2rem 0;
+    font-size: 18px;
+  }
+  span{
+    font-weight:600;
+  }
+  
+  /* Style buttons */
+  button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  .previewbtn{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .confirmationMsg {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #4caf50; /* Green border */
+    border-radius: 5px;
+    background-color: #f8f8f8; /* Light gray background */
+    text-align: center;
+    margin-top:4rem ;
+
+  }
+  
+  /*  image */
+  .confirmationMsg img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  /*  heading */
+  .confirmationMsg h3 {
+    margin: 0;
+    color: #4caf50;
+  }
+
+  .wMsg{
+    color: red;
+    text-align: center;
+  }
